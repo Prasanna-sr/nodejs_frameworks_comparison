@@ -5,6 +5,7 @@ server.connection({ port: 3000 });
 /**
 * Creating plugins
 **/
+//Plugin can be a router, middleware
 const myPlugin = {
     register: function (server, options, next) {
         console.log('~ Hapijs plugin body ~')

@@ -1,3 +1,6 @@
+/**
+* Middlewares are downstream and can go upstream
+**/
 var koa = require('koa');
 var app = koa();
 
